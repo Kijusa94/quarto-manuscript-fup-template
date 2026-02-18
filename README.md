@@ -11,8 +11,9 @@ Plantilla mínima para generar manuscritos y reportes de clase usando Quarto. In
 1. Clonar el repositorio.
 2. Abrir la carpeta del proyecto en tu IDE preferido.
 3. Cree un nuevo entorno de Python. Ejecute en su terminal `python -m venv .venv`.
-4. Activar el entorno.
-5. Instalar `requirements.txt`. Use: `pip install -r requirements.txt`.
+4. Activar el entorno. Presione `Ctrl + Shift + P` y escriba `Python: Select Interpreter`.
+5. Abra un nuevo terminal y verifique que el entorno está activo.
+6. Instalar `requirements.txt`. Use: `pip install -r requirements.txt`.
 
 ## Uso rápido
 - Vista previa interactiva:
@@ -28,6 +29,7 @@ Plantilla mínima para generar manuscritos y reportes de clase usando Quarto. In
 - sections/ — capítulos o secciones parciales
 - figures/ — figuras y recursos
 - tables/ — tablas en formatos .md o TeX.
+- scripts/ — scripts de R o Python para generar tablas o figuras.
 - references.bib — bibliografía
 
 ## Contribución

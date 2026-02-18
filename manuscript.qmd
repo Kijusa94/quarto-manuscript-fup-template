@@ -48,7 +48,7 @@ citation:
 number-sections: true
 ---
 
-{{< include sections/introduction.qmd >}}
-{{< include sections/objectives.qmd >}}
-{{< include sections/results.qmd >}}
-{{< include sections/conclusions.qmd >}}
+{{< include sections/_1_introduction.qmd >}}
+{{< include sections/_2_objectives.qmd >}}
+{{< include sections/_3_results.qmd >}}
+{{< include sections/_4_conclusions.qmd >}}
