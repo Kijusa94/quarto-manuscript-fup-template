@@ -1,22 +1,15 @@
 ## Resultados {#sec-resultados}
-
+<!-- Esto es un comentario. Se puede Seleccionar el texto y Presionar Ctrl + / -->
 Este es un marcador de posición simple para el desarrollo del manuscrito.
 
-<!-- Asi se comenta en quarto. Se puede Seleccionar el texto y Presionar Ctrl + / -->
-
-### Ejemplo de Imagen
-<!-- El siguiente comando es para agregar imagenes en un documento -->
-<!-- ![image](/figures/figure_1.png){#fig:figura_1} -->
-
 ### Ejemplo de Tabla
-<!-- El siguiente comando permite insertar el contenido de otro archivo en este. Se sugiere que el nombre de los archivos inicie con guion bajo, para que no sean considerados como archivos independientes por el motor -->
+<!-- El siguiente comando permite insertar el contenido de otro archivo en este. Se sugiere que el nombre de los archivos inicie con guion bajo, para que no sean considerados como archivos independientes por el motor de Quarto -->
 {{< include /tables/_data_table.qmd >}}
 
 ### Ejemplo de código
 <!-- Así se puede agregar codigo visible y ejecutable en la documentación -->
-```{python}
-#| echo: true
 
+```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -43,3 +36,7 @@ def plot_linear_function(m, b):
 # Ejemplo de uso: y = 2x + 3
 plot_linear_function(2, 3)
 ```
+
+### Ejemplo de Imagen
+<!-- El siguiente comando es para agregar imagenes en un documento -->
+![image](/figures/figure_1.png){#fig:figura_1}

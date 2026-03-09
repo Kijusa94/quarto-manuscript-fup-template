@@ -26,10 +26,11 @@ Plantilla mínima para generar manuscritos y reportes de clase usando Quarto. In
 
 ## Estructura sugerida para el proyecto
 - manuscript.qmd — documento principal
+- data/ — datos en formato .csv o .xslx
 - sections/ — capítulos o secciones parciales
 - figures/ — figuras y recursos
 - tables/ — tablas en formatos .md o TeX.
-- scripts/ — scripts de R o Python para generar tablas o figuras.
+- scripts/ — scripts de Python o R para generar tablas o figuras.
 - references.bib — bibliografía
 
 ## Contribución
