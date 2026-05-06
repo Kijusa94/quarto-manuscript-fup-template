@@ -9,5 +9,5 @@ format:
   html:
     comments:
       hypothesis: true
-  docx: default
-  pdf: default
+  #docx: default
+  #pdf: default
